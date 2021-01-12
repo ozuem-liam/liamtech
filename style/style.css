@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/* First Div */
+.navbar {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  margin: 0;
+  background: rgb(4, 4, 90);
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar h1 {
+  padding: 10px;
+  margin: 0;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 0;
+}
+
+.navlist li {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlist li a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: larger;
+  padding: 0;
+}
+
+.navlist li a:hover {
+  color: rgb(175, 173, 173);
+  border-bottom: 3px solid #fff700;
+}
