@@ -25,75 +25,72 @@
   <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-   <hearder class="navbar">
-            <h1>LiamTech</h1>
-           <ul class="navlist">
-               <li><a href="#intro">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-               <li><a href="">Portfolio</a></li>
-               <li><a href="#services">Services</a></li>
-                <li><a href="ozuemdw@gmail.com">Contact</a></li>
-            </ul>
-    </hearder>
-    <!-- ======= Intro Section ======= -->
-    <section id="intro" class="intro">
+   <header>      
+            <div class="menub">
+              <span class="menub__burger"></span>
+            </div>
 
-    <div class="introContent">
-      <h4>Hello,</h4>
-      <h2>I'm Williams</h2>
-      <h3>Freelance web Developer & Social <br> 
+            <div class="navbar">
+              <h1>LiamTech</h1>
+
+              <ul class="navlist">
+                <li class="menu-nav__item active">
+                  <a href="index.html" class="menu-nav__link">
+                    Home
+                   </a>
+                 </li>               
+                 <li class="menu-nav__item">
+                   <a href="about.html" class="menu-nav__link">
+                     About Me
+                    </a>
+                  </li>
+                  <li class="menu-nav__item">
+                   <a href="projects.html" class="menu-nav__link">
+                     My Projects
+                    </a>
+                  </li>
+
+                 <li class="menu-nav__item">
+                   <a href="contact.html" class="menu-nav__link">
+                     Contact Me
+                    </a>
+                  </li>
+             </ul>
+
+            </div>
+
+    </header>
+    <!-- ======= Intro Section ======= -->
+    <main>
+      <section class="intro">
+        <div class="welcome-message">
+      <h4 class="introContent-h4">Hello,</h4>
+      <h2 class="introContent-h2">I'm Williams</h2>
+      <h3 class="introContent-h3">Freelance web Developer & <br> Social  
         Media Marketer</h3>
 
-      <a href="ozuemdw@gmail.com">HIRE ME</a>
+      <a class="introContent-a" href="contact.html">HIRE ME</a>
+      </div>
+    <div class="social-icons">
+      <a href="https://twitter.com/williams_ozuem">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
+      <a href="https://web.facebook.com/Ozuemwilliams">
+        <i class="fab fa-facebook fa-2x"></i>
+      </a>
+      <a href="https://www.instagram.com/ozuem_williams/">
+        <i class="fab fa-instagram fa-2x"></i>
+      </a>
+      <a href="https://github.com/ozuem-liam">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
     </div>
 
+    <footer>&copy;  Copyright 2021</footer>
     </section><!-- ======= End of Intro Section ======= -->
-
-    <!-- ======= About Section ======= -->
-      <section id="about" class="about">
-        <div>
-          <img src="" alt="about image">
-        </div>
-        <div class="aboutContent">
-                <h3>About Me</h3>
-                <p>
-                  I am a web developer and a data analysts. A sales-driven personel with 
-                  over a year of experience on creating sales funnels, over 5 years experience in
-                  social media marketing and management for small businesses. <br> <p> 
-                    I am also an enthusiast in data science, strategy, finance, sales, copy writing, and project management.
-                  </p>
-                </p>
-        </div><!-- End .content-->
-      </section><!-- End About Section -->
-
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services">
-        <h3>Services</h3>
-        <div class="cards">
-          <div class="overlay"></div>
-
-          <div class="card1">
-            <h4>Web Development</h4>
-            <p>Create or modify your business website to current technology standards</p>
-          </div>
-          <div class="card2">
-            <h4>Social Media Management</h4>
-            <p>Develop a social media strategy and methdology for your business</p>
-          </div>
-          <div class="card3">
-            <h4>Social Media Marketing</h4>
-            <p>Create compelling banners and contents to drive sales for your business</p>
-          </div>
-          <div class="card4">
-            <h4>Email Marketing</h4>
-            <p>Create a mailing system for your business to build your database</p>
-          </div>
-
-        </div>
-      </section><!-- End Services Section -->
-
-   <section></section>
-    <section></section>
+    </main>
+    <script src="https://kit.fontawesome.com/935c6e3df3.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
