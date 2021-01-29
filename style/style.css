@@ -428,12 +428,11 @@ img {
   }
   .social-icons {
     position: fixed;
-    bottom: 1rem;
-    left: 1rem;
-    text-emphasis: none;
+    font-size: 13px;
+    bottom: 0.1rem;
+    left: 0.1rem;
   }
   .social-icons a {
-    padding: 0.4rem;
     color: #fff;
   }
   .social-icons a:hover {
@@ -542,8 +541,8 @@ img {
     padding: 0.5rem;
     border-bottom: 5px solid #fff700;
   }
-  .jobs__job h2,
-  .jobs__job h3 {
+  .jobs__job h3,
+  .jobs__job h4 {
     margin: 0.5rem 0;
   }
   .jobs__job h6 {
@@ -553,6 +552,7 @@ img {
   .projects {
     background-color: #272727;
     height: 100%;
+    width: 100%;
     padding-bottom: 2rem;
   }
   .projectsContent {
@@ -576,7 +576,7 @@ img {
 
   .project__items {
     position: relative;
-    width: 60%;
+    width: 90%;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -591,15 +591,15 @@ img {
   }
   img {
     width: 100%;
-    height: 200px;
+    height: 150px;
   }
   .projects__btns {
     display: flex;
     justify-content: space-between;
-    padding: 3px;
   }
   .projects__btn {
     color: #fff;
+    font-size: 12px;
     text-decoration: none;
   }
 
