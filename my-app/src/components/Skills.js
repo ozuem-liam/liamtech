@@ -13,6 +13,7 @@ class Skills extends Component {
                         <li className="skill-header">Dev Tools</li>
                         <li>Git</li>
                         <li>Jest</li>
+                        <li>Prisma & Sequelise</li>
                         <li>Webpack</li>
                         <li>Passport.js</li>
                     </ul>
@@ -33,6 +34,8 @@ class Skills extends Component {
                     <ul className="tech-list">
                         <li className="skill-header">Back-End</li>
                         <li>Node.js</li>
+                        <li>Nestjs</li>
+                        <li>Fastify</li>
                         <li>Express.js</li>
                         <li>PostgreSQL</li>
                         <li>MongoDB</li>
